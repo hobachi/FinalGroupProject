@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.finalgroupproject.MainActivity">
+
+    <TextView
+        android:text="Select an application to start"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activityTrackingBtn"
+        android:drawableLeft="@drawable/ic_directions_run"
+        android:text="Activity Tracking"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:drawableStart="@drawable/ic_directions_run" />
+
+    <Button
+        android:id="@+id/foodNutritionBtn"
+        android:text="Food Nutrition"
+        android:drawableLeft="@drawable/ic_insert_emoticon"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:drawableStart="@drawable/ic_insert_emoticon" />
+
+    <Button
+        android:id="@+id/houseThermoBtn"
+        android:text="House Thermostat"
+        android:drawableLeft="@drawable/ic_ac_unit"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:drawableStart="@drawable/ic_ac_unit" />
+</LinearLayout>

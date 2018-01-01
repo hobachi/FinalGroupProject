@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.finalgroupproject.NutritionNewActivity"
+    tools:showIn="@layout/activity_new_nutrition">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/nutritionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Nutrition name"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/nutritionName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Calories"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/nutritionCallories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="calories"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Total Fat"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/nutritionFat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="total fat"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Total Carbohydrate"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/nutritionCarb"
+                android:hint="carbohydrate"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nutritionBtn"
+        android:text="Save"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Final Project</string>
+
+    <string name="title_activity_tracking">My activities</string>
+    <string name="title_activity_nutrition">My nutrition</string>
+    <string name="title_activity_thermostat">My thermostat rules</string>
+    <string name="title_activity_new_tracking">Add new activity</string>
+    <string name="title_activity_new_nutrition">Add new item</string>
+    <string name="title_activity_new_thermostat">Add new rule</string>
+
+    <string name="action_delete">Delete</string>
+    <string name="action_about">About</string>
+
+    <string name="prompt_activity">Activity</string>
+    <string name="prompt_day">Day</string>
+    <string name="prompt_hour">Hour</string>
+    <string name="prompt_minute">Minutes</string>
+
+    <string name="about">About</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="required">Required.</string>
+    <string name="delete">Delete</string>
+
+    <string name="delete_msg">Would you like to delete this record?</string>
+    <string name="missing_info_error">Please enter missing information!</string>
+
+    <string name="activity_added">Activity added successfully</string>
+    <string name="activity_updated">Activity updated successfully</string>
+
+    <string name="rule_updated">Rule updated successfully</string>
+    <string name="rule_created">Rule created successfully</string>
+    <string name="new_rule_created">New rule created successfully</string>
+
+    <string name="nutrition_updated">Nutrition updated successfully</string>
+    <string name="nutrition_added">Nutrition added successfully</string>
+
+    <string name="activity_about">Activity Tracking (v1.0) developed by Author X</string>
+    <string name="nutrition_about">Food Nutrition (v1.0) developed by Author Z</string>
+    <string name="thermostat_about">House Thermostat (v1.0) developed by Author Y</string>
+</resources>
